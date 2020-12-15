@@ -10,12 +10,12 @@ public class Files {
   private String notetitle;
   private String contenttype;
   private String filesize;
-  private Users userid;
+  private User userid;
   // descobrir que tipo é esse filedata BLOB,
   private String filedata;
 
   public Files(Integer fileId, String notetitle, String contenttype, String filesize,
-      Users userid, String filedata) {
+      User userid, String filedata) {
     this.fileId = fileId;
     this.notetitle = notetitle;
     this.contenttype = contenttype;

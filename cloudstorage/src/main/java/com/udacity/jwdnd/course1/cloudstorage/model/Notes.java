@@ -9,10 +9,10 @@ public class Notes {
   private Integer noteid;
   private String notetitle;
   private String notedescription;
-  private Users userid;
+  private User userid;
 
   public Notes(Integer noteid, String notetitle, String notedescription,
-      Users userid) {
+      User userid) {
     this.noteid = noteid;
     this.notetitle = notetitle;
     this.notedescription = notedescription;
