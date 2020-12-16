@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Credentials {
+public class Credential {
   private Integer credentialid;
   private String url;
   private String username;
@@ -13,7 +13,7 @@ public class Credentials {
   private String password;
   private User userid;
 
-  public Credentials(Integer credentialid, String url, String username, String key,
+  public Credential(Integer credentialid, String url, String username, String key,
       String password, User userid) {
     this.credentialid = credentialid;
     this.url = url;

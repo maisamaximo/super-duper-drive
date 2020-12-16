@@ -5,13 +5,13 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Notes {
+public class Note {
   private Integer noteid;
   private String notetitle;
   private String notedescription;
   private User userid;
 
-  public Notes(Integer noteid, String notetitle, String notedescription,
+  public Note(Integer noteid, String notetitle, String notedescription,
       User userid) {
     this.noteid = noteid;
     this.notetitle = notetitle;
